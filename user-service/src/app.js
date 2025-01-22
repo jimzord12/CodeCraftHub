@@ -3,7 +3,7 @@ const connectDB = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
 const dotenv = require("dotenv");
 
-dotenv.config();
+// dotenv.config();
 
 const app = express();
 app.use(express.json());
